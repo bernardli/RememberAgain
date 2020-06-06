@@ -1,0 +1,19 @@
+{
+    "name": "RememberAgain",
+    "version": "1.0",
+    "description": "",
+    "permissions": [
+        "contextMenus",
+        "tabs",
+        "storage"
+    ],
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "browser_action": {
+        "default_title": "Remember Again"
+    },
+    "manifest_version": 2
+}
