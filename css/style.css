@@ -1,0 +1,13 @@
+html {
+    font-size: 16px;
+}
+
+.li-word-item {
+    display: flex;
+}
+
+.li-word-item .text-word {
+    font-size: 2em;
+}
+
+.li-word-item .btn-delete {}

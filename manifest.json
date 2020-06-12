@@ -1,6 +1,6 @@
 {
     "name": "RememberAgain",
-    "version": "1.0",
+    "version": "0.1",
     "description": "",
     "permissions": [
         "contextMenus",
@@ -9,7 +9,7 @@
     ],
     "background": {
         "scripts": [
-            "background.js"
+            "./js/background.js"
         ]
     },
     "browser_action": {
