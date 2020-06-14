@@ -45,12 +45,12 @@ chrome.contextMenus.onClicked.addListener(function (info, tab) {
     addToWordsBook(info.selectionText)
 })
 
-chrome.runtime.onInstalled.addListener(function () {
-    chrome.contextMenus.create({
-        'title': '添加到生词库',
-        'contexts': ['selection']
-    })
+// chrome.runtime.onInstalled.addListener(function () {
+chrome.contextMenus.create({
+    'title': '添加到生词库',
+    'contexts': ['selection']
 })
+// })
 
 chrome.runtime.onMessage.addListener(function (req, sender, sendResponse) {
     console.log(req)
